@@ -1,0 +1,44 @@
+/* grid , flex , table */
+
+body{
+    width:100vw;
+    background-color: wheat;
+    margin: 0%;
+}
+
+table{
+    border-collapse: collapse;
+    width:auto;  
+
+    /* overflow: give space to take whole content */
+    overflow: auto;
+}
+
+
+/* table cells */
+th, td{
+    border: 1px solid #333;
+    min-width: 80px;
+    min-height: 20px;
+}
+
+
+tr{
+    /* height property not working here  */
+    line-height: 20px;
+}
+
+/* To remove outlinecolour while clicking on cells to edit */
+td:focus{
+    outline: none;
+}
+
+
+
+#current-cell{
+  background-color: green;
+  color: white;
+  margin: 0%;
+  padding: 6px;
+  width: 139%;
+}
